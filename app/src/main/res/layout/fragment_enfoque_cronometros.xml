@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".enfoque_cronometros">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <ImageView
+        android:id="@+id/imageView14"
+        android:layout_width="match_parent"
+        android:layout_height="230dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/circulo_azul" />
+    <TextView
+        android:id="@+id/tvEnfoque"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:fontFamily="@font/inika_bold"
+        android:text="25:00"
+        android:textColor="#6699cc"
+        android:textSize="60dp" />
+    <Button
+        android:id="@+id/btnIniciarEnfoque"
+        android:layout_width="187dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:backgroundTint="@color/blueUI"
+        android:text="Iniciar"
+        android:fontFamily="@font/inika_regular"
+        android:textSize="20dp"
+        app:layout_constraintTop_toBottomOf="@+id/imageView14"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="250dp"/>
+
+</FrameLayout>

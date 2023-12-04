@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/bottom_consejos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:title="Consejos"
+        android:icon="@drawable/baseline_lightbulb_24"/>
+    <item
+        android:id="@+id/bottom_cronometro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:title="Cronómetros"
+        android:icon="@drawable/baseline_av_timer_24"/>
+    <item
+        android:id="@+id/bottom_home"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:title="Home"
+        android:icon="@drawable/baseline_home_24"/>
+    <item
+        android:id="@+id/bottom_tareas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:title="Tareas"
+        android:icon="@drawable/baseline_task_alt_24"/>
+    <item
+        android:id="@+id/bottom_opciones"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:title="Opciones"
+        android:icon="@drawable/baseline_settings_24"/>
+</menu>

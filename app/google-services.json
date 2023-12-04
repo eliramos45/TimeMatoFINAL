@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "212896821375",
+    "project_id": "login-timemato",
+    "storage_bucket": "login-timemato.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:212896821375:android:bc905b0c508a529b2dcf4a",
+        "android_client_info": {
+          "package_name": "com.example.timemato"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC2SyCkkCWQacn44QDO5Tgj4KHEJ5QNJJY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
